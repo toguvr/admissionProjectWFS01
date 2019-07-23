@@ -1,6 +1,6 @@
 
 body{
-    width: 100%;
+
     font-family: "Arial";
     margin:0px;
 }
@@ -45,18 +45,25 @@ body{
 
 }
 
-.lingua{
-    width: 200px;
-    height:150px;
-    margin: 50px;
-    text-align: left;
+
+
+.lingua{ 
+
+    border: 105px  solid #ffffff;
+    margin-left: 3%;
     display: inline;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 250%;
     color:#cd4d00;
     background-color: #ffffff;
 
 }
+
+.retangulo{
+    
+    margin-top: 180px;
+}
+
 #footer{
     height:450px;
     border: 1px solid #d7d7d7;
@@ -66,6 +73,8 @@ body{
 .formulario{
 
     margin-top: 200px;
+    width: 70%;
+    height:25%;
     
     
 }
@@ -73,11 +82,11 @@ body{
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    width: 350px;
-    height: 106px;
+    width: 20%;
+    height: 100%;
     background-color: #cd4d00;
     color: #ffffff;
-    margin-left: -7px;
+    margin-left: -6px;
 
 }
 
@@ -85,8 +94,8 @@ input{
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    width: 800px;
-    height: 100px;
+    width: 79%;
+    height: 100%;
     font-weight: bold;
     font-size: 300% ;
 }
