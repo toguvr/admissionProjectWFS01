@@ -46,7 +46,9 @@ body{
 }
 
 .lingua{
-    margin: 100px;
+    width: 200px;
+    height:150px;
+    margin: 50px;
     text-align: left;
     display: inline;
     font-weight: bold;
@@ -65,20 +67,22 @@ body{
 
     margin-top: 200px;
     
+    
 }
 .button{
-    border-width: medium;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
     width: 350px;
-    height: 108px;
+    height: 106px;
     background-color: #cd4d00;
     color: #ffffff;
+    margin-left: -7px;
 
 }
 
 input{
-    border-width: medium;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
     width: 800px;
