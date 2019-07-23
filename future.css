@@ -1,0 +1,89 @@
+
+body{
+    width: 100%;
+    font-family: "Arial";
+    margin:0px;
+}
+
+.titulo{text-align: center;
+    
+    font-size: 77px;
+    color: #ffffff;
+    margin-top: 250px;   
+}
+.turma{
+    margin-top:350px;
+    color: #ffffff;
+
+    font-size: 53px;
+    text-align: right;
+    margin-right: 50px;
+    font-style: italic;
+   
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+    width: 900px;
+    height: 400px;
+}
+
+#header{
+    
+    border: 0.5px solid #d7d7d7;
+    background-color: #595e96;
+
+}
+
+#body{
+    height:400px;
+    border: 0.5px solid #d7d7d7;
+    background-color: #cd4d00;
+
+}
+
+.lingua{
+    margin: 100px;
+    text-align: left;
+    display: inline;
+    font-weight: bold;
+    font-size: 70px;
+    color:#cd4d00;
+    background-color: #ffffff;
+
+}
+#footer{
+    height:450px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+
+}
+.formulario{
+
+    margin-top: 200px;
+    
+}
+.button{
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    width: 350px;
+    height: 108px;
+    background-color: #cd4d00;
+    color: #ffffff;
+
+}
+
+input{
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    width: 800px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 300% ;
+}
+
