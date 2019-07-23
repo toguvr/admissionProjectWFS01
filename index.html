@@ -11,25 +11,30 @@
         <h2 class="turma">Turma Web Full Stack 01</h2>
     </div>
     <div id="body">
-        <center>
+      
         <div class="retangulo">
-            <div class="rec"><p class="lingua">HTML</p></div>
-            <div class="rec"><p class="lingua">CSS</p></div>
-            <div class="rec"><p class="lingua">Javascript</p></div>
+            <div class="rec">HTML</div>
+            <div class="rec">CSS</div>
+            <div class="rec">Javascript</div>
         </div>
-        </center>
+       
     </div>
     <div id="footer">
     <center>
         <div class="formulario">
-        <input placeholder=" Coloque aqui o seu email"  >
+        <input name="texto" placeholder=" Coloque aqui o seu email"  >
         <input type="submit" value ="Enviar" class="button" onclick="textoEmail()">
         </div>
     </center>
     </div>
     <script>
-        function textoEmail(){
-            alert('O email usuario@future4.com.br foi enviado');
+        var clique = document.querySelector('input.button');
+        var textoDigitado = document.querySelector('input[name=texto]');
+
+        clique.onclick = function textoEmail(){
+
+            var email = textoDigitado.value;
+            alert('O email ' + email + ' foi enviado');
         }
     </script>
 </body>
