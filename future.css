@@ -1,21 +1,21 @@
 
 body{
 
-    font-family: "Arial";
+    font-family: "Arial", Times, sans-serif;;
     margin:0px;
 }
 
 .titulo{text-align: center;
     
-    font-size: 77px;
+    font-size: 350%;
     color: #ffffff;
-    margin-top: 250px;   
+    margin-top: 10%;   
 }
 .turma{
-    margin-top:350px;
+    margin-top:15%;
     color: #ffffff;
 
-    font-size: 53px;
+    font-size: 230%;
     text-align: right;
     margin-right: 50px;
     font-style: italic;
@@ -26,60 +26,66 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:200px;
-    width: 900px;
-    height: 400px;
+    margin-top:10%;
+    width: 50%;
+    
 }
 
 #header{
-    
-    border: 0.5px solid #d7d7d7;
+    width:100%;
+    border: 0.5px solid #bebebe;
     background-color: #595e96;
+    height: 50%;
 
 }
 
 #body{
-    height:400px;
-    border: 0.5px solid #d7d7d7;
+    height:20%;
+    border: 0.5px solid #bebebe;
     background-color: #cd4d00;
 
 }
 
-
+.rec{
+    width: 20%;
+    height: 15%;
+    background-color: #ffffff;
+}
 
 .lingua{ 
 
-    border: 105px  solid #ffffff;
-    margin-left: 3%;
-    display: inline;
+  
+
+  
     font-weight: bold;
     font-size: 250%;
     color:#cd4d00;
-    background-color: #ffffff;
+
 
 }
 
 .retangulo{
     
-    margin-top: 180px;
+    margin-top: 10%;
 }
 
 #footer{
-    height:450px;
-    border: 1px solid #d7d7d7;
+    height:50%;
+    border: 1px solid #bebebe;
     background-color: #d7d7d7;
 
 }
 .formulario{
 
-    margin-top: 200px;
-    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
     height:25%;
     
     
 }
 .button{
-    border-width: 2px;
+    border-width: 1,5px;
     border-style: solid;
     border-color: black;
     width: 20%;
@@ -91,12 +97,12 @@ body{
 }
 
 input{
-    border-width: 2px;
+    border-width: 1,5px;
     border-style: solid;
     border-color: black;
     width: 79%;
     height: 100%;
     font-weight: bold;
-    font-size: 300% ;
+    font-size: 250% ;
 }
 
