@@ -1,7 +1,8 @@
 
 body{
 
-    font-family: "Arial", Times, sans-serif;;
+    font-family: 'Helvetica', 'Arial', sans-serif ;
+    
     margin:0px;
 }
 
@@ -14,7 +15,7 @@ body{
 
 .titulo{text-align: center;
     
-    font-size: 350%;
+    font-size: 325%;
     color: #ffffff;
     margin-top: 10%;   
 }
@@ -22,7 +23,7 @@ body{
     margin-top:15%;
     color: #ffffff;
 
-    font-size: 230%;
+    font-size: 225.0%;
     text-align: right;
     margin-right: 50px;
     font-style: italic;
@@ -34,7 +35,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top:10%;
-    width: 50%;
+    width: 47%;
     
 }
 
@@ -58,10 +59,10 @@ body{
     width: 40%;
     background-color: #ffffff;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 230%;
     color:#cd4d00;
     margin: 2%;
-    padding: 8%;
+    padding: 7% 3% 7% 3%;
     text-align: center;
 }
 
@@ -79,8 +80,8 @@ body{
 
 }
 .formulario{
-    
-    margin:10%;
+   
+    margin:9.5%;
     width: 60%;
     height:25%;
     
@@ -89,34 +90,30 @@ body{
 .button{
     border-width: 1,5px;
     border-style: solid;
-    border-color: black;
-    width: 25%;
+    border-color: gray;
+    width: 29%;
     height: 100%;
-    padding: 2%;
+    padding: 1.5%;
     background-color: #cd4d00;
     color: #ffffff;
     margin-left: -6px;
+    font-size: % ;
 
 }
 
 input{
-    padding: 2%;
+    padding: 1.5%;
     border-width: 1,5px;
     border-style: solid;
-    border-color: black;
-    width: 70%;
+    border-color: gray;
+    width: 67%;
     height: 100%;
     font-weight: bold;
-    font-size: 250% ;
+    font-size: 225% ;
 }
 
 @media only screen and (max-device-width: 900px) {
-    
-body{
 
-    font-family: "Arial", Times, sans-serif;;
-    margin:0px;
-}
 
 #msg{text-align: center;
     
@@ -151,20 +148,6 @@ body{
     
 }
 
-#header{
-    width:100%;
-    border: 0.5px solid #bebebe;
-    background-color: #595e96;
-    height: 50%;
-
-}
-
-#body{
-    height:30%;
-    border: 0.5px solid #bebebe;
-    background-color: #cd4d00;
-
-}
 
 .rec{
     
@@ -186,42 +169,31 @@ body{
     flex-direction: column;
 }
 
-#footer{
-    height:20%;
-    border: 1px solid #bebebe;
-    background-color: #d7d7d7;
-
-}
-.formulario{
-    
-    margin:10%;
-    width: 60%;
-    height:25%;
-    
-    
-}
 .button{
     border-width: 1,5px;
     border-style: solid;
-    border-color: black;
-    width: 25%;
+    border-color: gray;
+    width: 29%;
     height: 100%;
-    padding: 2%;
+    padding: 1.5%;
     background-color: #cd4d00;
     color: #ffffff;
     margin-left: -6px;
 
+
 }
 
 input{
-    padding: 2%;
+    padding: 1.5%;
     border-width: 1,5px;
     border-style: solid;
-    border-color: black;
-    width: 70%;
+    border-color: gray;
+    width: 67%;
     height: 100%;
     font-weight: bold;
-    font-size: 250% ;
+    font-size: 180% ;
 }
+
+
     }
 
