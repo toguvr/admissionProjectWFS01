@@ -9,7 +9,7 @@ body{
     
     font-size: 120%;
     color: #ffffff;
-    margin-top: 5%;   
+    margin-top: 6%;   
 }
 
 .titulo{text-align: center;
@@ -55,7 +55,7 @@ body{
 
 .rec{
     
-    width: 50%;
+    width: 40%;
     background-color: #ffffff;
     font-weight: bold;
     font-size: 200%;
@@ -109,4 +109,119 @@ input{
     font-weight: bold;
     font-size: 250% ;
 }
+
+@media only screen and (max-device-width: 900px) {
+    
+body{
+
+    font-family: "Arial", Times, sans-serif;;
+    margin:0px;
+}
+
+#msg{text-align: center;
+    
+    font-size: 120%;
+    color: #ffffff;
+    margin-top: 6%;   
+}
+
+.titulo{text-align: center;
+    
+    font-size: 400%;
+    color: #ffffff;
+    margin-top: 10%;   
+}
+.turma{
+    margin-top:15%;
+    color: #ffffff;
+
+    font-size: 300%;
+    text-align: right;
+    margin-right: 50px;
+    font-style: italic;
+   
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    width: 94%;
+    
+}
+
+#header{
+    width:100%;
+    border: 0.5px solid #bebebe;
+    background-color: #595e96;
+    height: 50%;
+
+}
+
+#body{
+    height:30%;
+    border: 0.5px solid #bebebe;
+    background-color: #cd4d00;
+
+}
+
+.rec{
+    
+    width: 72%;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 350%;
+    color:#cd4d00;
+    margin: 4%;
+    padding: 25% 10% 25% 10%;
+    text-align: center;
+}
+
+
+
+.retangulo{
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+    height:20%;
+    border: 1px solid #bebebe;
+    background-color: #d7d7d7;
+
+}
+.formulario{
+    
+    margin:10%;
+    width: 60%;
+    height:25%;
+    
+    
+}
+.button{
+    border-width: 1,5px;
+    border-style: solid;
+    border-color: black;
+    width: 25%;
+    height: 100%;
+    padding: 2%;
+    background-color: #cd4d00;
+    color: #ffffff;
+    margin-left: -6px;
+
+}
+
+input{
+    padding: 2%;
+    border-width: 1,5px;
+    border-style: solid;
+    border-color: black;
+    width: 70%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 250% ;
+}
+    }
 
