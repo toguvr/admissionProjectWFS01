@@ -6,6 +6,7 @@
 </head>
 <body>
     <div id="header">
+        <div id="msg" ></div>
         <h1 class="titulo">Projeto seletivo Future4</h1>
         <img class="logo" src="future4.jpg" />
         <h2 class="turma">Turma Web Full Stack 01</h2>
@@ -22,20 +23,14 @@
     <div id="footer">
     <center>
         <div class="formulario">
-        <input name="texto" placeholder=" Coloque aqui o seu email"  >
-        <input type="submit" value ="Enviar" class="button" onclick="textoEmail()">
+            <form  name="frmEnvia">
+        <input type="text" class="email" name="email" placeholder=" Coloque aqui o seu email" >
+        <input type="submit" value ="Enviar" class="button" >
+            </form>
         </div>
     </center>
     </div>
-    <script>
-        var clique = document.querySelector('input.button');
-        var textoDigitado = document.querySelector('input[name=texto]');
 
-        clique.onclick = function textoEmail(){
-
-            var email = textoDigitado.value;
-            alert('O email ' + email + ' foi enviado');
-        }
-    </script>
+    <script src="future.js"></script>
 </body>
 </html>
